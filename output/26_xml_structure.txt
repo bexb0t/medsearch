@@ -1,0 +1,509 @@
+Namespace: No namespace - Path: /{urn:hl7-org:v3}document, Attributes: {'{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}id, Attributes: {'root': '1c6a54d6-9ada-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}code, Attributes: {'code': '34390-5', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'HUMAN OTC DRUG LABEL'}
+VALUE: TARGET Children’s Cold & Cough Drug Facts - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}title, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}title, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}setId, Attributes: {'root': 'eb912834-1b14-484d-90f7-a8deb52c0d4e'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}versionNumber, Attributes: {'value': '1'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}author, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}author/{}time, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}author/{}assignedEntity, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}author/{}assignedEntity/{}representedOrganization, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}author/{}assignedEntity/{}representedOrganization/{}id, Attributes: {'root': '1.3.6.1.4.1.519.1', 'extension': '006961700'}
+VALUE: TARGET CORPORATION - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}author/{}assignedEntity/{}representedOrganization/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}author/{}assignedEntity/{}representedOrganization/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}id, Attributes: {'root': '1c6a62d3-9e2e-f5b1-e063-6294a90ae56e'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}code, Attributes: {'code': '48780-1', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'SPL product data elements section'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}code, Attributes: {'code': '82442-645', 'codeSystem': '2.16.840.1.113883.6.69'}
+VALUE: TARGET CHILDRENs COLD and COUGH - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}formCode, Attributes: {'code': 'C42953', 'codeSystem': '2.16.840.1.113883.3.26.1.1', 'displayName': 'LIQUID'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asEntityWithGeneric, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asEntityWithGeneric/{}genericMedicine, Attributes: {}
+VALUE: brompheniramine maleate, dextromethorphan HBr, phenylephrine HCl - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asEntityWithGeneric/{}genericMedicine/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asEntityWithGeneric/{}genericMedicine/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'IACT'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': 'XF417D3PSL', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: ANHYDROUS CITRIC ACID - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'IACT'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': 'H3R47K3TBD', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: FD&C BLUE NO. 1 - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'IACT'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': 'WZB9127XOA', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: FD&C RED NO. 40 - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'IACT'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': 'PDC6A3C0OX', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: GLYCERIN - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'IACT'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': '6DC9Q167V3', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: PROPYLENE GLYCOL - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'IACT'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': '8D4SNN7V92', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: PROPYL GALLATE - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'IACT'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': '059QF0KO0R', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: WATER - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'IACT'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': 'OJ245FE5EU', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: SODIUM BENZOATE - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'IACT'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': '1Q73Q2JULR', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: SODIUM CITRATE, UNSPECIFIED FORM - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'IACT'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': '506T60A25R', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: SORBITOL - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'IACT'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': '96K6UQ3ZD4', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: SUCRALOSE - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'ACTIB'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}quantity, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}quantity/{}numerator, Attributes: {'unit': 'mg', 'value': '2'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}quantity/{}denominator, Attributes: {'unit': 'mL', 'value': '10'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': 'IXA7C9ZN03', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: BROMPHENIRAMINE MALEATE - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety/{}activeMoiety, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety/{}activeMoiety/{}code, Attributes: {'code': 'H57G17P2FN', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: BROMPHENIRAMINE - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety/{}activeMoiety/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety/{}activeMoiety/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'ACTIB'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}quantity, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}quantity/{}numerator, Attributes: {'unit': 'mg', 'value': '10'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}quantity/{}denominator, Attributes: {'unit': 'mL', 'value': '10'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': '9D2RTI9KYH', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: DEXTROMETHORPHAN HYDROBROMIDE - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety/{}activeMoiety, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety/{}activeMoiety/{}code, Attributes: {'code': '7355X3ROTS', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: DEXTROMETHORPHAN - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety/{}activeMoiety/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety/{}activeMoiety/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient, Attributes: {'classCode': 'ACTIB'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}quantity, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}quantity/{}numerator, Attributes: {'unit': 'mg', 'value': '5'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}quantity/{}denominator, Attributes: {'unit': 'mL', 'value': '10'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}code, Attributes: {'code': '04JA59TNSJ', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: PHENYLEPHRINE HYDROCHLORIDE - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety/{}activeMoiety, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety/{}activeMoiety/{}code, Attributes: {'code': '1WS297W6MV', 'codeSystem': '2.16.840.1.113883.4.9'}
+VALUE: PHENYLEPHRINE - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety/{}activeMoiety/{}name, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}ingredient/{}ingredientSubstance/{}activeMoiety/{}activeMoiety/{}name, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}quantity, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}quantity/{}numerator, Attributes: {'value': '118', 'unit': 'mL'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}quantity/{}denominator, Attributes: {'value': '1'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}code, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}formCode, Attributes: {'code': 'C43169', 'codeSystem': '2.16.840.1.113883.3.26.1.1', 'displayName': 'BOTTLE'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}asContent, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}asContent/{}quantity, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}asContent/{}quantity/{}numerator, Attributes: {'value': '1', 'unit': '1'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}asContent/{}quantity/{}denominator, Attributes: {'value': '1'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}asContent/{}containerPackagedProduct, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}asContent/{}containerPackagedProduct/{}code, Attributes: {'code': '82442-645-04', 'codeSystem': '2.16.840.1.113883.6.69'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}asContent/{}containerPackagedProduct/{}formCode, Attributes: {'code': 'C43182', 'codeSystem': '2.16.840.1.113883.3.26.1.1', 'displayName': 'CARTON'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}asContent/{}subjectOf, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}asContent/{}subjectOf/{}marketingAct, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}asContent/{}subjectOf/{}marketingAct/{}code, Attributes: {'code': 'C53292', 'codeSystem': '2.16.840.1.113883.3.26.1.1'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}asContent/{}subjectOf/{}marketingAct/{}statusCode, Attributes: {'code': 'active'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}asContent/{}subjectOf/{}marketingAct/{}effectiveTime, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}containerPackagedProduct/{}asContent/{}subjectOf/{}marketingAct/{}effectiveTime/{}low, Attributes: {'value': '20240617'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}subjectOf, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}subjectOf/{}characteristic, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}subjectOf/{}characteristic/{}code, Attributes: {'code': 'SPLCMBPRDTP', 'codeSystem': '2.16.840.1.113883.1.11.19255'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}manufacturedProduct/{}asContent/{}subjectOf/{}characteristic/{}value, Attributes: {'code': 'C102834', 'codeSystem': '2.16.840.1.113883.3.26.1.1', 'displayName': 'Type 1: Convenience Kit of Co-Package', '{http://www.w3.org/2001/XMLSchema-instance}type': 'CV'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}approval, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}approval/{}id, Attributes: {'extension': 'M012', 'root': '2.16.840.1.113883.3.9421'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}approval/{}code, Attributes: {'code': 'C200263', 'codeSystem': '2.16.840.1.113883.3.26.1.1', 'displayName': 'OTC Monograph Drug'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}approval/{}author, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}approval/{}author/{}territorialAuthority, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}approval/{}author/{}territorialAuthority/{}territory, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}approval/{}author/{}territorialAuthority/{}territory/{}code, Attributes: {'code': 'USA', 'codeSystem': '2.16.840.1.113883.5.28'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}marketingAct, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}marketingAct/{}code, Attributes: {'code': 'C53292', 'codeSystem': '2.16.840.1.113883.3.26.1.1'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}marketingAct/{}statusCode, Attributes: {'code': 'active'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}marketingAct/{}effectiveTime, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}marketingAct/{}effectiveTime/{}low, Attributes: {'value': '20240617'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}characteristic, Attributes: {'classCode': 'OBS'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}characteristic/{}code, Attributes: {'code': 'SPLCOLOR', 'codeSystem': '2.16.840.1.113883.1.11.19255'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}characteristic/{}value, Attributes: {'code': 'C48327', 'codeSystem': '2.16.840.1.113883.3.26.1.1', 'displayName': 'purple', '{http://www.w3.org/2001/XMLSchema-instance}type': 'CE'}
+VALUE: purple liquid - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}characteristic/{}value/{}originalText, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}characteristic/{}value/{}originalText, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}characteristic, Attributes: {'classCode': 'OBS'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}characteristic/{}code, Attributes: {'code': 'SPLFLAVOR', 'codeSystem': '2.16.840.1.113883.1.11.19255'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}characteristic/{}value, Attributes: {'code': 'C73391', 'codeSystem': '2.16.840.1.113883.3.26.1.1', 'displayName': 'GRAPE', '{http://www.w3.org/2001/XMLSchema-instance}type': 'CE'}
+VALUE: grape flavor and odor - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}characteristic/{}value/{}originalText, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}subjectOf/{}characteristic/{}value/{}originalText, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}consumedIn, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}consumedIn/{}substanceAdministration, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}subject/{}manufacturedProduct/{}consumedIn/{}substanceAdministration/{}routeCode, Attributes: {'code': 'C38288', 'codeSystem': '2.16.840.1.113883.3.26.1.1', 'displayName': 'ORAL'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section, Attributes: {'ID': 'G0aec83da-6097-451f-a3f3-6b622075353a'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9adb-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}code, Attributes: {'code': '55106-9', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'OTC - ACTIVE INGREDIENT SECTION'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title, Attributes: {}
+VALUE: Active ingredients (in each 10 ml) - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, Attributes: {'styleCode': 'italics'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text, Attributes: {}
+VALUE: Brompheniramine maleate, 2 mg - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+VALUE: Dextromethorphan HBr, 10 mg - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+VALUE: Phenylephrine HCl, 5 mg - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section, Attributes: {'ID': 'G2f7dc826-e2b8-468c-b0e6-7ec2195b43ed'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9adc-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}code, Attributes: {'code': '55105-1', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'OTC - PURPOSE SECTION'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title, Attributes: {}
+VALUE: Purposes - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, Attributes: {'styleCode': 'italics'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text, Attributes: {}
+VALUE: Antihistamine - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+VALUE: Cough suppressant - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+VALUE: Nasal decongestant - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section, Attributes: {'ID': 'Gcc3af397-fbad-4598-ac8c-7dea6473813f'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9add-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}code, Attributes: {'code': '34067-9', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'INDICATIONS & USAGE SECTION'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title, Attributes: {}
+VALUE: Uses - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, Attributes: {'styleCode': 'italics'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list, Attributes: {'listType': 'unordered'}
+VALUE: temporarily relieves: - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: Nasal congestion - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}list, Attributes: {'listType': 'unordered'}
+VALUE: runny nose - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}list/{}item, Attributes: {}
+VALUE: cough - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}list/{}item, Attributes: {}
+VALUE: sneezing - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}list/{}item, Attributes: {}
+VALUE: itchy, watery eyes due to hay fever - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}list/{}item, Attributes: {}
+VALUE: itching of the nose or throat - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}list/{}item, Attributes: {}
+VALUE: temporarily restores freer breathing through the nose - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section, Attributes: {'ID': 'G8d9d48a7-2995-46c8-8496-3144df09f7ac'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9ade-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}code, Attributes: {'code': '34071-1', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'WARNINGS SECTION'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title, Attributes: {}
+VALUE: Warnings - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, Attributes: {'styleCode': 'italics'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section, Attributes: {'ID': 'G7dea83dc-c59d-46d3-a890-aca2da42429c'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9adf-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}code, Attributes: {'code': '50570-1', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'OTC - DO NOT USE SECTION'}
+VALUE: Do not use - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list, Attributes: {'listType': 'unordered'}
+VALUE: to sedate a child or to make a child sleepy - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: if you are now taking a prescription monoamine oxidase inhibitor (MAOI) (certain drugs for depression, psychiatric, or emotional conditions, or Parkinson's disease), or for 2 weeks after stopping the MAOI drug. If you do not know if your prescription drug contains an MAOI, ask a doctor or pharmacist before taking this product. - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section, Attributes: {'ID': 'G52c261ad-3f47-458a-8095-d23cdbe49a1a'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9ae0-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}code, Attributes: {'code': '50569-3', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'OTC - ASK DOCTOR SECTION'}
+VALUE: Ask a doctor before use if you have - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list, Attributes: {'listType': 'unordered'}
+VALUE: heart disease - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: high blood pressure - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: thyroid disease - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: diabetes - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: trouble urinating due to an enlarged prostate gland - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: glaucoma - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: cough that occurs with too much phlegm (mucus) - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: a breathing problem or persistent or chronic cough that lasts such as occurs with smoking, asthma, chronic bronchitis, or emphysema - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section, Attributes: {'ID': 'Gbe441305-7ac2-4063-a9b6-b27015ae8bfd'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9ae1-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}code, Attributes: {'code': '50568-5', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'OTC - ASK DOCTOR/PHARMACIST SECTION'}
+VALUE: Ask a doctor or pharmacist before use if you are - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list, Attributes: {'listType': 'unordered'}
+VALUE: taking any other oral nasal decongestant or stimulant - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: taking sedatives or tranquilizers - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section, Attributes: {'ID': 'G63998d9c-e111-49f1-b67f-175e66d902a9'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9ae2-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}code, Attributes: {'code': '50567-7', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'OTC - WHEN USING SECTION'}
+VALUE: When using this product - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list, Attributes: {'listType': 'unordered'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: do not use more than directed - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item/{}content, Attributes: {'styleCode': 'bold'}
+VALUE: may cause marked drowsiness - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: avoid alcoholic beverages - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: alcohol, sedatives, and tranquilizers may increase drowsiness - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: be careful when driving a motor vehicle or operating machinery - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: excitability may occur, especially in children - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section, Attributes: {'ID': 'G93a6dac9-6081-406a-9302-9eb933371996'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9ae3-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}code, Attributes: {'code': '50566-9', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'OTC - STOP USE SECTION'}
+VALUE: Stop use and ask a doctor if - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list, Attributes: {'listType': 'unordered'}
+VALUE: nervousness, dizziness, or sleeplessness occurs - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: symptoms do not get better within 7 days or are accompanied by fever - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: cough lasts more than 7 days, comes back, or is accompanied by fever, rash, or persistent headache. These could be signs of a serious condition. - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section, Attributes: {'ID': 'Gaa84a3ee-49c2-4f2c-8fd2-3635c1917a79'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9ae4-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}code, Attributes: {'code': '53414-9', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'OTC - PREGNANCY OR BREAST FEEDING SECTION'}
+VALUE: If pregnant or breast-feeding, - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text, Attributes: {}
+VALUE: ask a health professional before use. - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section, Attributes: {'ID': 'G81e48442-3c75-4441-8d7c-0a0326b6b696'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9ae5-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}code, Attributes: {'code': '50565-1', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'OTC - KEEP OUT OF REACH OF CHILDREN SECTION'}
+VALUE: Keep out of reach of children. - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}title, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text, Attributes: {}
+VALUE: In case of overdose, get medical help or contact a Poison Control Center right away at 1-800-222-1222. - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}text/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section, Attributes: {'ID': 'G770a3473-1aea-48b3-b934-aec685c76bd3'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9ae6-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}code, Attributes: {'code': '34068-7', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'DOSAGE & ADMINISTRATION SECTION'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title, Attributes: {}
+VALUE: Directions - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, Attributes: {'styleCode': 'italics'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list, Attributes: {'listType': 'unordered'}
+VALUE: do not take more than 6 doses in any 24-hour period - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: measure only with dosage cup provided - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: keep dosage cup with product - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: ml = milliliter - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table, Attributes: {'width': '46.24%'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}col, Attributes: {'width': '24%'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}col, Attributes: {'width': '22%'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}thead, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}thead/{}tr, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}thead/{}tr/{}th, Attributes: {'align': 'center', 'styleCode': 'Botrule Lrule Toprule ', 'valign': 'bottom'}
+VALUE: age - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}thead/{}tr/{}th/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}thead/{}tr/{}th/{}content, Attributes: {'styleCode': 'bold'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}thead/{}tr/{}th, Attributes: {'align': 'center', 'styleCode': 'Rrule Botrule Lrule Toprule ', 'valign': 'bottom'}
+VALUE: dose - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}thead/{}tr/{}th/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}thead/{}tr/{}th/{}content, Attributes: {'styleCode': 'bold'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td, Attributes: {'align': 'center', 'styleCode': 'Lrule Toprule Botrule ', 'valign': 'middle'}
+VALUE: adults and children 12 years and over - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td, Attributes: {'align': 'center', 'styleCode': 'Rrule Lrule Toprule Botrule ', 'valign': 'middle'}
+VALUE: 20 ml every 4 hours - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td, Attributes: {'align': 'center', 'styleCode': 'Lrule Botrule ', 'valign': 'middle'}
+VALUE: children 6 to under 12 years - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td, Attributes: {'align': 'center', 'styleCode': 'Rrule Lrule Botrule ', 'valign': 'middle'}
+VALUE: 10 ml every 4 hours - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td, Attributes: {'align': 'center', 'styleCode': 'Botrule Lrule ', 'valign': 'middle'}
+VALUE: children under 6 years - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td, Attributes: {'align': 'center', 'styleCode': 'Rrule Botrule Lrule ', 'valign': 'middle'}
+VALUE: do not use - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}table/{}tbody/{}tr/{}td/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section, Attributes: {'ID': 'G0f6a3ea9-d168-4be8-a645-4ce9e6c3b940'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9ae7-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}code, Attributes: {'code': '42229-5', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'SPL UNCLASSIFIED SECTION'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title, Attributes: {}
+VALUE: Other information - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, Attributes: {'styleCode': 'italics'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list, Attributes: {'listType': 'unordered'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: each 10 ml contains - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}content, Attributes: {'styleCode': 'bold'}
+VALUE: store at room temperature. - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section, Attributes: {'ID': 'G825e4ebb-6d09-41b2-8589-a8d1bd0f5a28'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9ae8-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}code, Attributes: {'code': '51727-6', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'INACTIVE INGREDIENT SECTION'}
+VALUE: Inactive ingredients - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text, Attributes: {}
+VALUE: citric acid, FD&C blue no. 1, FD&C red no. 40, artificial flavor, glycerin, propylene glycol, propyl gallate, purified water, sodium benzoate, sodium citrate, sorbitol solution, sucralose - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section, Attributes: {'ID': 'G73b44294-0ed6-40bd-83d2-250d51973814'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9ae9-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}code, Attributes: {'code': '53413-1', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'OTC - QUESTIONS SECTION'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title, Attributes: {}
+VALUE: Questions or comments? - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title/{}content, Attributes: {'styleCode': 'italics'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text, Attributes: {}
+VALUE: 1-866-467-2748 - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section, Attributes: {'ID': 'ID_be056c1f-52cb-4e72-a42d-8c676175c439'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}id, Attributes: {'root': '1c6a54d6-9aea-fc00-e063-6394a90a0773'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}code, Attributes: {'code': '51945-4', 'codeSystem': '2.16.840.1.113883.6.1', 'displayName': 'PACKAGE LABEL.PRINCIPAL DISPLAY PANEL'}
+VALUE: PRINCIPAL DISPLAY PANEL - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}title, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text, Attributes: {}
+VALUE: Compare to the active ingredients in Children’s Dimetapp® Cold & Cough* - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+VALUE: NDC 82442-645-04 - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, Attributes: {'styleCode': 'bold'}
+VALUE: Children's - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+VALUE: Cold - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, Attributes: {'styleCode': 'bold'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}br, Attributes: {}
+VALUE: Cough - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, Attributes: {'styleCode': 'bold'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+VALUE: Brompheniramine maleate - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, Attributes: {'styleCode': 'bold'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}br, Attributes: {}
+VALUE: Dextromethorphan HBr - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, Attributes: {'styleCode': 'bold'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}br, Attributes: {}
+VALUE: Phenylephrine HCl - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, Attributes: {'styleCode': 'bold'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+VALUE: Relieves + comforts - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, Attributes: {'styleCode': 'bold'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list, Attributes: {'listType': 'unordered'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: Stuffy, runny nose - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}content, Attributes: {'styleCode': 'bold'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: Itchy, watery Eyes - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}content, Attributes: {'styleCode': 'bold'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: Sneezing - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}content, Attributes: {'styleCode': 'bold'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item, Attributes: {}
+VALUE: Cough - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}list/{}item/{}content, Attributes: {'styleCode': 'bold'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+VALUE: For Ages 6 Years and Over - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, Attributes: {'styleCode': 'bold'}
+VALUE: No Added Alcohol - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+VALUE: Grape Flavor - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph/{}content, Attributes: {'styleCode': 'bold'}
+VALUE: Naturally and Artificially Flavored - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+VALUE: 4 FL OZ (118 ml) - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+VALUE: Distributed by: - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+VALUE: *This product is not manufactures or distributed by Foundation Consumer Brands, LLC, the distributor of Children’s Dimetapp® Cold & Cough*. - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}paragraph, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}text/{}renderMultiMedia, Attributes: {'ID': 'id701', 'referencedObject': 'ID_4d23a8c3-5325-48f8-bf83-f8b05da99992'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}effectiveTime, Attributes: {'value': '20240704'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}observationMedia, Attributes: {'ID': 'ID_4d23a8c3-5325-48f8-bf83-f8b05da99992'}
+VALUE: Target Children's Cold & Cough 4 FL OZ 118 mL - Namespace: urn:hl7-org:v3 - xpath: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}observationMedia/{}text, attrib: None
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}observationMedia/{}text, Attributes: {}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}observationMedia/{}value, Attributes: {'mediaType': 'image/jpeg', '{http://www.w3.org/2001/XMLSchema-instance}type': 'ED'}
+Namespace: urn:hl7-org:v3 - Path: /{urn:hl7-org:v3}document/{}component/{}structuredBody/{}component/{}section/{}component/{}observationMedia/{}value/{}reference, Attributes: {'value': 'dimetapp-02.jpg'}

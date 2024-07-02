@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1c4ec3cb-b7a5-73c9-e063-6394a90afeda"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>71745-003 GoodEarth Sanitizing Wipes</title>
+   <effectiveTime value="20240702"/>
+   <setId root="1c4ec3cb-b7a4-73c9-e063-6394a90afeda"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079808558"/>
+            <name>GoodEarth Distribution LLC</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1c5ab9b0-d49e-4abe-e063-6394a90a3387"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20240702"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71745-003" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>GoodEarth Sanitizing Wipes</name>
+                        <formCode code="C60884" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CLOTH"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Benzalkonium Chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="3.822"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F5UM2KM3W7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZALKONIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7N6JUD5X6Y" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BENZALKONIUM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2KAG279R6R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEHYDROACETIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="VB00RDE21R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLY(LAURYLGLUCOSIDE)-7</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8SKN0B0MIM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZOIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="HIE492ZZ3T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENOXYETHANOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="E00JL9G9K0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CAPRYLYL/CAPRYL OLIGOGLUCOSIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1500" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="2" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="71745-003-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20230811"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="505G(a)(3)" root="2.16.840.1.113883.3.9421"/>
+                           <code code="C200263" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC Monograph Drug"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20230811"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1c4f3003-8707-a51f-e063-6394a90a1dca">
+               <id root="1c4f3003-8706-a51f-e063-6394a90a1dca"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>Active Ingredient</paragraph>
+                  <paragraph>Benzalkonium Chloride 0.13 %</paragraph>
+               </text>
+               <effectiveTime value="20240703"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1c4f349f-ba27-d5c2-e063-6294a90a6038">
+               <id root="1c4f349f-ba26-d5c2-e063-6294a90a6038"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <text>
+                  <paragraph>Purpose</paragraph>
+                  <paragraph>Antimicrobial</paragraph>
+               </text>
+               <effectiveTime value="20240703"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1c4f4241-4f49-73ba-e063-6394a90a6a76">
+               <id root="1c4f4241-4f48-73ba-e063-6394a90a6a76"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Use</paragraph>
+                  <paragraph>Hand sanitizer to help reduce bacteria on the skin.</paragraph>
+                  <paragraph>Recommended for repeated use.</paragraph>
+               </text>
+               <effectiveTime value="20240703"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1c4f3b51-ea5e-411c-e063-6294a90a8610">
+               <id root="1c4f3b51-ea5d-411c-e063-6294a90a8610"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>Warnings</paragraph>
+                  <paragraph>For external use only.</paragraph>
+               </text>
+               <effectiveTime value="20240703"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1c4f3d0e-6778-3b60-e063-6294a90af0e8">
+               <id root="1c4f3d0e-6777-3b60-e063-6294a90af0e8"/>
+               <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+               <text>
+                  <paragraph>When using this product do not use in or near the eyes.</paragraph>
+                  <paragraph>In case of contact, rinse eyes thoroughly in water.</paragraph>
+               </text>
+               <effectiveTime value="20240703"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1c4f4b86-7d9c-d3d2-e063-6394a90ac6dc">
+               <id root="1c4f4b86-7d9b-d3d2-e063-6394a90ac6dc"/>
+               <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+               <text>
+                  <paragraph>Discontinue use if irritation and redness develop.</paragraph>
+                  <paragraph>If conditions persist for more than 72 hours, consult a physician.</paragraph>
+                  <paragraph>If swallowed get medical help or contact a poison control</paragraph>
+                  <paragraph>center immediately.</paragraph>
+               </text>
+               <effectiveTime value="20240703"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1c4f3003-8709-a51f-e063-6394a90a1dca">
+               <id root="1c4f3003-8708-a51f-e063-6394a90a1dca"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <text>
+                  <paragraph>Keep out of reach of children.</paragraph>
+               </text>
+               <effectiveTime value="20240703"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1c4f4b86-7d9e-d3d2-e063-6394a90ac6dc">
+               <id root="1c4f4b86-7d9d-d3d2-e063-6394a90ac6dc"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Directions</paragraph>
+                  <paragraph>· Wet hands thoroughly with product and allow to dry.</paragraph>
+                  <paragraph>· Be sure to use entire wipe.</paragraph>
+                  <paragraph>· Discard after single use.</paragraph>
+                  <paragraph>· Children under 6 years of age should be supervised</paragraph>
+                  <paragraph>when using this product.</paragraph>
+               </text>
+               <effectiveTime value="20240703"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1c4f3b51-ea60-411c-e063-6294a90a8610">
+               <id root="1c4f3b51-ea5f-411c-e063-6294a90a8610"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>Inactive Ingredients</paragraph>
+                  <paragraph>Benzoic Acid, Caprylyl/Capryl Oligoglucoside, Dehydroacetic Acid, Phenoxyethanol, Poly(Laurylglucoside)-7, Propylene Glycol, Water</paragraph>
+               </text>
+               <effectiveTime value="20240703"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1c4f41b4-e403-f5c4-e063-6294a90acc2f">
+               <id root="1c4f41b4-e402-f5c4-e063-6294a90acc2f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>3000 Total Wipes (1500 wipes per roll; 2 rolls per case)</paragraph>
+                  <paragraph>NDC: 71745-003-01</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_1c4f41b4-e401-f5c4-e063-6294a90acc2f"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240703"/>
+               <component>
+                  <observationMedia ID="img_1c4f41b4-e401-f5c4-e063-6294a90acc2f">
+                     <text>Product Label - 1500 SHEETS</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Product Label of GoodEarth Sanitizing Wipes.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

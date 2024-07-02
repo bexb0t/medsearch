@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.env-vars*.yaml
+db-secrets.yaml*
