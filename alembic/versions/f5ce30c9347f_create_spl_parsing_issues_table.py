@@ -1,8 +1,8 @@
-"""create med_forms table
+"""create spl_parsing_issues table
 
-Revision ID: ff15ee5210b4
-Revises: d50797242e4e
-Create Date: 2024-07-07 18:59:54.931061
+Revision ID: f5ce30c9347f
+Revises: e54e8f781005
+Create Date: 2024-07-30 23:22:30.290522
 
 """
 
@@ -10,24 +10,25 @@ from typing import Sequence, Union
 
 from alembic import op
 import sqlalchemy as sa
-
+from sqlalchemy.dialects.mysql import LONGTEXT
 
 # revision identifiers, used by Alembic.
-revision: str = "ff15ee5210b4"
-down_revision: Union[str, None] = "d50797242e4e"
+revision: str = "f5ce30c9347f"
+down_revision: Union[str, None] = "e54e8f781005"
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
 
-TABLE_NAME = "med_forms"
+TABLE_NAME = "spl_parsing_issues"
 
 
 def upgrade() -> None:
     op.create_table(
         TABLE_NAME,
         sa.Column("id", sa.Integer, primary_key=True, autoincrement=True),
-        sa.Column("code", sa.String(length=255), nullable=False),
-        sa.Column("code_system", sa.String(length=255), nullable=False),
-        sa.Column("name", sa.String(length=255), nullable=False),
+        sa.Column("spl_id", sa.Integer(), nullable=False),
+        sa.Column("error", sa.Text, nullable=False),
+        sa.Column("xml_content", LONGTEXT, nullable=False),
+        sa.Column("xml_structure", LONGTEXT, nullable=False),
         sa.Column("created_at", sa.DateTime, default=sa.func.now(), nullable=False),
         sa.Column(
             "updated_at",
@@ -37,12 +38,7 @@ def upgrade() -> None:
             nullable=False,
         ),
         sa.Column("deleted_at", sa.DateTime, nullable=True),
-    )
-
-    op.create_unique_constraint(
-        "uq_med_forms_code_code_system",
-        TABLE_NAME,
-        ["code", "code_system"],
+        sa.ForeignKeyConstraint(["spl_id"], ["spls.id"]),
     )
 
 

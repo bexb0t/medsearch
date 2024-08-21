@@ -28,9 +28,13 @@ def upgrade() -> None:
         sa.Column("set_id", sa.String(length=255), nullable=False),
         sa.Column("title", sa.Text, nullable=False),
         sa.Column("published_date", sa.Date, nullable=False),
-        sa.Column("created_at", sa.DateTime, default=sa.func.now()),
+        sa.Column("created_at", sa.DateTime, default=sa.func.now(), nullable=False),
         sa.Column(
-            "updated_at", sa.DateTime, default=sa.func.now(), onupdate=sa.func.now()
+            "updated_at",
+            sa.DateTime,
+            default=sa.func.now(),
+            onupdate=sa.func.now(),
+            nullable=False,
         ),
         sa.Column("deleted_at", sa.DateTime, nullable=True),
     )

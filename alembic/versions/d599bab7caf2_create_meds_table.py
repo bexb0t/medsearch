@@ -26,16 +26,20 @@ def upgrade() -> None:
         TABLE_NAME,
         sa.Column("id", sa.Integer(), autoincrement=True, nullable=False),
         sa.Column("spl_id", sa.Integer(), nullable=False),
-        sa.Column("med_form_id", sa.Integer(), nullable=False),  # Adding form_id column
-        sa.Column("code", sa.String(length=255)),
-        sa.Column("code_system", sa.String(length=255)),
-        sa.Column("name", sa.String(length=255)),
-        sa.Column("generic_name", sa.String(length=255)),
-        sa.Column("effective_date", sa.Date()),
-        sa.Column("version_number", sa.Integer()),
-        sa.Column("created_at", sa.DateTime, default=sa.func.now()),
+        sa.Column("med_form_id", sa.Integer()),
+        sa.Column("code", sa.String(length=255), nullable=False),
+        sa.Column("code_system", sa.String(length=255), nullable=False),
+        sa.Column("name", sa.String(length=255), nullable=False),
+        sa.Column("generic_name", sa.String(length=255), nullable=False),
+        sa.Column("effective_date", sa.Date(), nullable=False),
+        sa.Column("version_number", sa.Integer(), nullable=False),
+        sa.Column("created_at", sa.DateTime, default=sa.func.now(), nullable=False),
         sa.Column(
-            "updated_at", sa.DateTime, default=sa.func.now(), onupdate=sa.func.now()
+            "updated_at",
+            sa.DateTime,
+            default=sa.func.now(),
+            onupdate=sa.func.now(),
+            nullable=False,
         ),
         sa.Column("deleted_at", sa.DateTime, nullable=True),
         sa.ForeignKeyConstraint(["spl_id"], ["spls.id"]),
@@ -44,6 +48,7 @@ def upgrade() -> None:
         ),  # Foreign key to med_forms table
         sa.PrimaryKeyConstraint("id"),
     )
+    op.create_unique_constraint("uq_meds_spl_id", TABLE_NAME, ["spl_id"])
 
 
 def downgrade() -> None:

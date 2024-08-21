@@ -11,6 +11,10 @@ class DatabaseConfigurationException(Exception):
         super().__init__(message)
 
 
+def get_mysql_uri():
+    return f"mysql://{settings.MYSQL_USER}:{settings.MYSQL_PASSWORD}@{settings.MYSQL_HOST}:{settings.MYSQL_PORT}"
+
+
 def create_app_user_engine() -> Engine:
     """
     Creates a SQLAlchemy engine for the app user.
@@ -18,7 +22,7 @@ def create_app_user_engine() -> Engine:
     Returns:
         Engine: The SQLAlchemy engine for the app user.
     """
-    uri = f"mysql://{settings.MYSQL_USER}:{settings.MYSQL_PASSWORD}@{settings.MYSQL_HOST}:{settings.MYSQL_PORT}"
+    uri = get_mysql_uri()
     return create_engine(uri)
 
 
@@ -57,7 +61,4 @@ def verify_database() -> None:
                 raise DatabaseConfigurationException("Database schema not found.")
     except sqlalchemy_exc.SQLAlchemyError as e:
         logger.error(f"Error connecting as app user: {e}")
-        raise e
-    except Exception as e:
-        logger.error(f"Unexpected error during database verification: {e}")
         raise e

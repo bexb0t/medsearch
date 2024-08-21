@@ -1,8 +1,8 @@
-"""create med_forms table
+"""create spl_data_issues table
 
-Revision ID: ff15ee5210b4
-Revises: d50797242e4e
-Create Date: 2024-07-07 18:59:54.931061
+Revision ID: 07ae42fb5176
+Revises: f5ce30c9347f
+Create Date: 2024-07-30 23:33:38.415928
 
 """
 
@@ -13,21 +13,24 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = "ff15ee5210b4"
-down_revision: Union[str, None] = "d50797242e4e"
+revision: str = "07ae42fb5176"
+down_revision: Union[str, None] = "f5ce30c9347f"
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
 
-TABLE_NAME = "med_forms"
+TABLE_NAME = "spl_data_issues"
 
 
 def upgrade() -> None:
     op.create_table(
         TABLE_NAME,
         sa.Column("id", sa.Integer, primary_key=True, autoincrement=True),
-        sa.Column("code", sa.String(length=255), nullable=False),
-        sa.Column("code_system", sa.String(length=255), nullable=False),
-        sa.Column("name", sa.String(length=255), nullable=False),
+        sa.Column("spl_id", sa.Integer(), nullable=False),
+        # this is an enum in code, but we'll make it  text here so we don't
+        # have to do a migration just because we added a new operation ttype
+        sa.Column("operation_type", sa.String(100), nullable=False),
+        sa.Column("table_name", sa.String(128)),
+        sa.Column("error_message", sa.Text, nullable=False),
         sa.Column("created_at", sa.DateTime, default=sa.func.now(), nullable=False),
         sa.Column(
             "updated_at",
@@ -37,12 +40,7 @@ def upgrade() -> None:
             nullable=False,
         ),
         sa.Column("deleted_at", sa.DateTime, nullable=True),
-    )
-
-    op.create_unique_constraint(
-        "uq_med_forms_code_code_system",
-        TABLE_NAME,
-        ["code", "code_system"],
+        sa.ForeignKeyConstraint(["spl_id"], ["spls.id"]),
     )
 
 
