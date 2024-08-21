@@ -89,9 +89,17 @@ class SPLDetailExtractor:
             "effective_date": document.med_effective_date,
             "version_number": document.med_version_number,
         }
+        try:
+            updated_med = self.db_client.upsert_model(med, filter_criteria)
+            return updated_med.id
 
-        updated_med = self.db_client.upsert_model(med, filter_criteria)
-        return updated_med.id
+        except (IntegrityError, DataError) as e:
+            self.log_spl_data_issue(
+                operation_type=OperationType.save,
+                table_name=Med.__tablename__,
+                message=str(e),
+            )
+            return None
 
     def get_or_create_med_form_id(self, document: SPLDetailResponse) -> Optional[int]:
         med_form_code = document.med_form_code

@@ -99,4 +99,4 @@ class DailyMedClient:
         Returns:
             Optional[bytes]: The raw content of the response if successful; otherwise, None.
         """
-        return self.fetch(f"spls/{set_id}")
+        return self.fetch(f"spls/{set_id}.xml")

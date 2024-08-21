@@ -1,6 +1,6 @@
 import logging
 from typing import Any, Dict, List, Generator
-from medsearch_api.app.database.db_client import DBClient
+from medsearch_api.app.db import db
 from medsearch_api.app.database.models import SPL, Med
 from sqlalchemy import func
 from medsearch_api.app.etl.spl_detail_extractor import SPLDetailExtractor
@@ -11,13 +11,11 @@ logger = logging.getLogger(__name__)
 def get_spls_to_update(
     pagesize: int = 50,
 ) -> Generator[List[Dict[str, Any]], None, None]:
-    db_client = DBClient()
 
     offset = 0
     while True:
-        # Use the DBClient to get the models with the required filters and pagination
-        results = (
-            db_client.session.query(SPL.id, Med.spl_id)
+        query = (
+            db.session.query(SPL.id, SPL.set_id)
             .outerjoin(Med, SPL.id == Med.spl_id)
             .filter(
                 (Med.updated_at.is_(None))
@@ -30,8 +28,10 @@ def get_spls_to_update(
             .order_by(SPL.id)
             .offset(offset)
             .limit(pagesize)
-            .all()
         )
+
+        # Execute the query
+        results = query.all()
 
         if not results:
             break
