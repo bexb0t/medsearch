@@ -25,12 +25,16 @@ def upgrade() -> None:
     op.create_table(
         TABLE_NAME,
         sa.Column("id", sa.Integer(), autoincrement=True, nullable=False),
-        sa.Column("name", sa.String(length=255)),
-        sa.Column("code", sa.String(length=255)),
-        sa.Column("code_system", sa.String(length=255)),
-        sa.Column("created_at", sa.DateTime, default=sa.func.now()),
+        sa.Column("name", sa.String(length=255), nullable=False),
+        sa.Column("code", sa.String(length=255), nullable=False),
+        sa.Column("code_system", sa.String(length=255), nullable=False),
+        sa.Column("created_at", sa.DateTime, default=sa.func.now(), nullable=False),
         sa.Column(
-            "updated_at", sa.DateTime, default=sa.func.now(), onupdate=sa.func.now()
+            "updated_at",
+            sa.DateTime,
+            default=sa.func.now(),
+            onupdate=sa.func.now(),
+            nullable=False,
         ),
         sa.Column("deleted_at", sa.DateTime, nullable=True),
         sa.PrimaryKeyConstraint("id"),

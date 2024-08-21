@@ -26,9 +26,13 @@ def upgrade() -> None:
         TABLE_NAME,
         sa.Column("med_id", sa.Integer(), nullable=False),
         sa.Column("ingredient_id", sa.Integer(), nullable=False),
-        sa.Column("created_at", sa.DateTime, default=sa.func.now()),
+        sa.Column("created_at", sa.DateTime, default=sa.func.now(), nullable=False),
         sa.Column(
-            "updated_at", sa.DateTime, default=sa.func.now(), onupdate=sa.func.now()
+            "updated_at",
+            sa.DateTime,
+            default=sa.func.now(),
+            onupdate=sa.func.now(),
+            nullable=False,
         ),
         sa.Column("deleted_at", sa.DateTime, nullable=True),
         sa.ForeignKeyConstraint(["med_id"], ["meds.id"]),
