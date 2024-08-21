@@ -4,8 +4,8 @@ from medsearch_api.app.db import db
 from medsearch_api.app.config import settings
 
 from medsearch_api.app.database.utils import verify_database
+from medsearch_api.app.logging_config import configure_logging
 
-logger = logging.getLogger(__name__)
 
 # Initialize SQLAlchemy instance outside create_app()
 
@@ -21,6 +21,8 @@ def create_app() -> Flask:
 
 
 if __name__ == "__main__":
+    configure_logging()
+    logger = logging.getLogger(__name__)
     verify_database()
     app = create_app()
 
