@@ -7,7 +7,7 @@ from medsearch_api.app.xml.utils import XMLLocation, get_xml_value
 logger = logging.getLogger(__name__)
 
 
-class BaseDailyMedResponse:
+class BaseXMLResponse:
     """Base class for parsing NIH DailyMed XML responses.
 
     Attributes:

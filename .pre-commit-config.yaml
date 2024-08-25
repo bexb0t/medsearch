@@ -10,7 +10,7 @@ repos:
     rev: v1.10.0
     hooks:
       - id: mypy
-        additional_dependencies: ['pydantic', 'alembic', 'types-requests', 'flask-sqlalchemy-stubs', 'types-PyYAML']
+        additional_dependencies: ['pydantic', 'alembic', 'types-requests', 'flask-sqlalchemy-stubs', 'types-PyYAML', 'types-python-dateutil']
 
   - repo: git@github.com:psf/black.git
     rev: 24.4.2

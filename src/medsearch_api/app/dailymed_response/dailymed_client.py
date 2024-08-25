@@ -69,10 +69,10 @@ class DailyMedClient:
             )
             return None
 
-    def fetch_spls(
+    def fetch_spls_from_json_endpoint(
         self, page_number: int, published_after: Optional[date] = None
     ) -> Optional[bytes]:
-        """Fetches SPL data from DailyMed API.
+        """Fetches SPL data from DailyMed API from the JSON endpoint.
 
         Args:
             page_number (int): The page number to fetch.
@@ -81,7 +81,7 @@ class DailyMedClient:
         Returns:
             Optional[bytes]: The raw content of the response if the request is successful; otherwise, None.
         """
-        endpoint = "spls.xml"
+        endpoint = "spls.json"
         if published_after:
             formatted_date = self.format_date(published_after)
             endpoint += f"?published_date={formatted_date}&published_date_comparison=gt"
@@ -91,7 +91,7 @@ class DailyMedClient:
 
     def fetch_spl_by_set_id(self, set_id: str) -> Optional[bytes]:
         """
-        Fetches a specific SPL by its set_id.
+        Fetches a specific SPL XML document by its set_id. For this endpoint, only XML is available.
 
         Args:
             set_id (str): The ID of the SPL to fetch.

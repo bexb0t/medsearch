@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "spl_version": 13,
+            "published_date": "Aug 23, 2024",
+            "title": "FIBRYGA (FIBRINOGEN (HUMAN)) KIT [OCTAPHARMA USA INC]",
+            "setid": "007a93f4-d84b-1fa9-51ed-32f6140bf423"
+        },
+        {
+            "spl_version": 3,
+            "published_date": "Aug 23, 2024",
+            "title": "NATURIUM DEW-GLOW MOISTURIZER SPF 50 CREAM [MANA PRODUCTS, INC]",
+            "setid": "00c93b11-754e-701c-e063-6294a90a3b1d"
+        },
+        {
+            "spl_version": 107,
+            "published_date": "Aug 23, 2024",
+            "title": "GUANFACINE TABLET, EXTENDED RELEASE [BRYANT RANCH PREPACK]",
+            "setid": "00f244f8-353d-4674-b479-26aad6b1619a"
+        }
+    ],
+    "metadata": {
+        "db_published_date": "Aug 23, 2024 08:39:50PM EST",
+        "elements_per_page": 3,
+        "current_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?published_date=2024-08-17&published_date_comparison=gt&page=1&pagesize=3",
+        "next_page_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?published_date=2024-08-17&published_date_comparison=gt&page=2&pagesize=3",
+        "total_elements": 1287,
+        "total_pages": 429,
+        "current_page": 1,
+        "previous_page": "null",
+        "previous_page_url": "null",
+        "next_page": 2
+    }
+}

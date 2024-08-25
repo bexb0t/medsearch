@@ -1,7 +1,7 @@
 import logging
 from typing import Dict, Optional
-from medsearch_api.app.dailymed_response.base_dailymed_response import (
-    BaseDailyMedResponse,
+from medsearch_api.app.dailymed_response.base_xml_response import (
+    BaseXMLResponse,
 )
 from medsearch_api.app.db import db
 from medsearch_api.app.database.models import SPLParsingIssue
@@ -15,7 +15,7 @@ from medsearch_api.app.xml.utils import (
 logger = logging.getLogger(__name__)
 
 
-class SPLDetailResponse(BaseDailyMedResponse):
+class SPLDetailXMLResponse(BaseXMLResponse):
     """Handles the detail response for a SPL (Structured Product Label)."""
 
     # define the attributes we are tracking
